@@ -6,7 +6,6 @@
 }
 .main{
     text-align: center;
-    
 }
 .wrap{
     width: 30%;
@@ -15,4 +14,32 @@
     flex-direction: column;
     border: 1px solid gainsboro;
     border-radius: 3px;
+    display: none;
+
+}
+.input-num{
+    width: 90%;
+    height: 30%;
+    margin-top:15px;    
+}
+.submit-btn{
+    width: 50%;
+    height: 40%;
+	background-color: blue;
+	border-color: blue;
+	color:#fff;
+	font-size: 13px;
+	-webkit-transition-duration: 0.4s; 
+ 	transition-duration: 0.4s;
+     border-radius: 4px;
+     margin-top:15px;
+}
+.submit-btn:hover {
+  background-color: #fff; 
+  color: blue;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    width:30%;
 }
