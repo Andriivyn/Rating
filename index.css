@@ -1,0 +1,10 @@
+.main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4px;
+    grid-auto-rows: minmax(100,10);
+
+}
+.cont{
+    border:1px solid black;
+}
