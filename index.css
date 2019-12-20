@@ -28,6 +28,7 @@
 .grades-page.show{
     display: block;
 }
+
 .input-num{
     width: 90%;
     height: 30%;
@@ -69,7 +70,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-        justify-content: space-around;
+    justify-content: space-around;
 
 }
 .credit-in{
@@ -79,4 +80,20 @@
 .grade-in{
     margin: 0;
     width:50%;
+}
+.count-average{
+    width: 70px;
+    height: 50px;
+	background-color: blue;
+	border-color: blue;
+	color:#fff;
+	font-size: 13px;
+	-webkit-transition-duration: 0.4s; 
+ 	transition-duration: 0.4s;
+     border-radius: 4px;
+     margin-top:15px;
+}
+.count-average:hover {
+  background-color: #fff; 
+  color: blue;
 }
