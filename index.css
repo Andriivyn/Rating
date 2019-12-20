@@ -1,11 +1,12 @@
 *{
-    margin:0px;
+    margin:0 auto;
     padding:0px;
     text-align: center;
 	font-family:Montserrat,sans-serif;
 }
 .main{
     text-align: center;
+    width: 50%;
 }
 .wrap{
     width: 30%;
@@ -14,7 +15,7 @@
     flex-direction: column;
     border: 1px solid gainsboro;
     border-radius: 3px;
-    display: none;
+display: none;
 
 }
 .input-num{
@@ -40,7 +41,30 @@
 }
 .header{
     display: flex;
+    /* display: none; */
     justify-content: space-around;
-    width:40%;
-    
+}
+
+.grades-page{
+    width: 100%;
+}
+.header-grades{
+    width: 50%;
+    border: 1px solid gainsboro;
+}
+
+.grades-input{ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+        justify-content: space-around;
+
+}
+.credit-in{
+    margin:0;
+    width: 50%;
+}
+.grade-in{
+    margin: 0;
+    width:50%;
 }
