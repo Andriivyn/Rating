@@ -22,10 +22,10 @@
 .subject-num{
     width: 40%;
 }
-.hide{
+.wrap.hide{
     display: none;
 }
-.show{
+.grades-page.show{
     display: block;
 }
 .input-num{
